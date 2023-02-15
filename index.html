@@ -1,0 +1,165 @@
+<html>
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width">
+    <meta name="author" content="Ng Xin Cheng">
+    <title>Xin Cheng's Devblog</title>
+    <link href="style.css" rel="stylesheet" type="text/css">
+    <script src="javascript.js" defer></script>
+</head>
+<body>
+    <header class="top">
+        <div id="top">
+            <img src="Images/schleeb.PNG" style="width:100px; height:auto;" />
+            <h1>Xin Cheng's Devblog</h1>
+        </div>
+
+        <hr style="width:93%; border:1px solid black; background-color: black;">
+        <nav class="mainnav">
+            <a href="#wk1"><strong>W1</strong></a>
+            <a href="#wk2"><strong>W2</strong></a>
+            <a href="#wk3"><strong>W3</strong></a>
+            <a href="#wk4"><strong>w4</strong></a>
+            <a href="#wk5"><strong>W5</strong></a>
+            <a href="#wk6"><strong>W6</strong></a>
+            <a href="#wk7"><strong>W7</strong></a>
+            <a href="#wk8"><strong>W8</strong></a>
+            <a href="#wk12"><strong>W12</strong></a>
+            <a href="#wk13"><strong>W13</strong></a>
+            <a href="#wk14"><strong>W14</strong></a>
+        </nav>
+        <hr style="width:90%; border:1px solid black; background-color: black;">
+
+        &nbsp;
+    </header>
+    &nbsp;
+
+    <article class="weeks flex-side">
+        <div class="weeks" id="wk1">
+            <h1>Week 1</h1>
+            <ul>
+                <li>Introduction to HTML and Tags</li>
+                <li><h2>Headings</h2></li>
+                <li><strong><em>Style tags</em></strong></li>
+                <li>Images <p><img src="Images/Screenshot_20230213_080836.png" alt="Images" style="width:200px; height:auto;" /></p></li>
+                <li>Lists</li>
+                <ol>
+                    <li>Ordered Lists</li>
+                    <li>Numbers</li>
+                </ol>
+                &nbsp;
+                <ul>
+                    <li>Unordered lists</li>
+                    <li>Symbols</li>
+                </ul>
+                <li>a href: <a href="#top">Goes to Top</a></li>
+            </ul>
+        </div>
+    &nbsp;
+    
+        <div class="weeks" id="wk2">
+            <h1>Week 2</h1>
+            <ul>
+                <li>Introduction to Semantics and CSS</li>
+                <li>Headers, Nav, Article, <span class="span">spans</span>, Aside, etc...</li>
+                <li>CSS - styling html through <br><span class="color">colours,</span> <span class="size">sizes,</span> and positions.</li>
+                <li>Inline, External or Style elements.</li>
+                <li>ID and Classes</li>
+            </ul>
+        </div>
+    &nbsp;
+
+        <div class="weeks" id="wk3">
+            <h1>Week 3</h1>
+            <ul>
+                <li>Forms, CSS, Positioning, Flexboxes</li>
+                <li>Forms</li>
+                <form>
+                    <input type="text" placeholder="something" required />
+                    <input type="number" placeholder="enter number" required />
+                    <input type="submit" />
+                </form>
+                <li>CSS Inheritance, Specificity, Cascade and Importance</li>
+                <ul>
+                    <li>Inheritance - Styles inherited from parent elements.</li>
+                    <li>Specificity - Which CSS rule takes priority.</li>
+                    <li>Cascade - Style declarations read from top to bottom.</li>
+                    <li>Importance - !Important overrides source order and specificity.</li>
+                </ul>
+                <li>Media Queries - modify the CSS depending on device type/viewport size.</li>
+                <li>Positioning</li>
+                <ul>
+                    <li>Relative - Moves elements around relative to where they appear in a page.</li>
+                    <li>Absolute - Offset relative to the entire browser window instead of original positioning.</li>
+                    <li>Fixed - Absolute except coordinates are relative to the browser window.</li>
+                    <li>Z-Index - Controls the depth of elements on a page.</li>
+                </ul>
+                <li>Flexboxes - Containers to flex items that adapt layout to suit contents.</li>
+            </ul>
+        </div>
+    </article>
+
+    <article class="weeks flex-side">
+        <div class="weeks" id="wk4">
+            <h1>Week 4</h1>
+            <ul>
+                <li>Responsive Images</li>
+                <ul>
+                    <li>Auto-resizes based on screen size.</li>
+                    <li>Provides greater design control dependant on device.</li>
+                    <li>Using width:100%, max-width:100%, background-size:cover.</li>
+                </ul>
+                <li>GIT</li>
+                <ul>
+                    <li>Introduction to Github repositories and GIT</li>
+                    <li>Version control system and keeps track of all changes to files.</li>
+                    <li>Able to reset file contents to match an older version or reset entirely.</li>
+                    <li>Create a new Github repository and linking it to Visual Studio Code.</li>
+                </ul>
+            </ul>
+        </div>
+        &nbsp;
+
+        <div class="weeks" id="wk5">
+            <h1>Week 5</h1>
+            <ul>
+                <li>Introduction to Javascript basics</li>
+            </ul>
+        </div>
+
+        <div class="weeks" id="wk6">
+            <h1>Week 6</h1>
+            <ul>
+                <li>More Javascript basics</li>
+                <li>Javascript Objects - group together a set of variables/functions to create a model.</li>
+                <li>Access the object through calling the object and their property or method name.</li>
+                <li>Update an object through calling the object and their propery name, and give it a new value.</li>
+                <li>Delete a property of an object through using keyword "delete".</li>
+                <li>Literal Objects has no constructors and cannot be inherited,<br>but Function-based objects has a constructor and can be inherited.</li>
+                <li>Var/Let/Const</li>
+                <ul>
+                    <li>Var - Able to be hoisted/can be called regardless of where the actual declaration appear.</li>
+                    &nbsp;
+                    <li>Let - Not hoisted to the top of an enclosing block.</li>
+                    <li>Block-scoped, only existing within the brackets it is contained in.</li>
+                    &nbsp;
+                    <li>Const - Constants, values cannot be changed once set.</li>
+                </ul>
+                <li>DOM</li>
+                <ul>
+                    <li>A model of a loaded page - called the DOM tree.</li>
+                    <li>Document Node - Represents the entire page document.</li>
+                    <li>Element Node - Elements that describe the structure of a HTML page.</li>
+                    <li>Attribute Node - Opening tags of elements with attributes like Classes and IDs.</li>
+                    <li>Text Node - On accessing the element node, you can modify the text within.</li>
+                    <li>Can access elements through using getElementById(id)/getElementsByClassName(class) and etc...</li>
+                    <li>The .textContent property allows getting of content of an element or modifying of content.</li>
+                    <li>the .innerHTML property is the same, but HTML markup is allowed.</li>
+                </ul>
+            </ul>
+        </div>
+    </article>
+
+    <article></article>
+</body>
+</html>

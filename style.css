@@ -1,0 +1,71 @@
+/*Navigation Bar*/
+.mainnav {
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    text-align:center;
+    display:flex;
+    justify-content:center;
+}
+    
+.mainnav a {
+    float: none;
+    color: black;
+    padding: 16px 50px;
+    text-decoration: none;
+    font-size: 19px;
+    font-family: 'Nanum Gothic', sans-serif;
+}
+    
+.mainnav a:hover {
+    color: #8585ff;
+}
+
+.mainnav .current {
+    color:#8585ff;
+}
+
+/* --- */
+/* Navigation Bar Styling */
+.top {
+    background-color:rgba(24, 213, 234, 0.650);
+    width:100%;
+    opacity: 1;
+}
+
+#top {
+    text-align:center;
+}
+
+body {
+    margin: 0;
+}
+
+/* --- */
+/* Weekly Content */
+.flex-side {
+    display: flex;
+    background-color: white;
+    justify-content: space-evenly;
+}
+
+.flex-side > div {
+    background-color: white;
+    margin: 10px;
+    padding: 20px;
+}
+
+
+/* --- */
+/* Span stuff */
+.span {
+    border: 3px solid violet;
+}
+
+.color {
+    color: red;
+}
+
+.size {
+    font-size:20px;
+}
